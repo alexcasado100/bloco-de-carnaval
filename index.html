@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bloco de Carnaval</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img class="img-top" src="assets/images/carna-01.svg" alt="Desenho de folhas de plantas coloridas">
+    <div id="content">
+      <div class="content-text">
+        <p>Find Your Block</p>
+        <h1>Encontre os <span>melhores blocos</span><br/> de carnaval de 2023</h1>
+      </div>
+      <form>
+        <div id="form-search">
+          <img src="assets/images/search.svg" alt="Imagem de um ícone de uma lupa de pesquisa" class="search">
+          <input type="search" name="search" id="search" placeholder="Pesquise por nome">
+        </div>
+        <div id="form-location">
+          <img src="assets/images/location.svg" alt="Imagem de um ícone de localidade" class="location">
+          <select name="cidades" id="cidades">
+            <option value="" selected>Selecione uma cidade</option>
+            <option value="São Paulo">São Paulo - SP</option>
+            <option value="Rio de Janeiro">Rio de Janeiro - RJ</option>
+            <option value="Salvador">Salvador - BA</option>
+            <option value="Recife">Recife - PE</option>
+            <option value="Olinda">Olinda - PE</option>
+            <option value="Porto Alegre">Porto Alegre - RS</option>
+            <option value="Florianópolis">Florianópolis - SC</option>
+            <option value="Belém">Belém - PA</option>
+            <option value="Brasília">Brasília - DF</option>
+          </select>
+        </div>
+        <button>Buscar Agora</button>
+      </form>
+    </div>
+    <img class="img-bottom" src="assets/images/carna-02.svg" alt="Desenho de uma mulher com adereços de carnaval em volta">
+  </header>
+  <main>
+    <div id="title">
+      <h2>Blocos recomendados</h2>
+      <div class="btn">
+        <button class="list">Lista</button>
+        <button class="map">Mapa</button>
+      </div>
+    </div>
+    <section>
+        <div class="card">
+          <img src="assets/images/carna-01.jpg" alt="Imagem de um homem com cartola preta envolto de várias outras pessoas curtindo o carnaval" class="card-img">
+          <div class="card-description">
+            <h3>O Python do vovô não sobe mais</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit<br/>aliqua dolor do amet sint.</p>
+            <div class="card-text">
+              <img src="assets/images/location.svg" alt="Imagem de um ícone de localidade">
+              <span>São Paulo - SP</span>
+            </div>
+          </div>  
+        </div>
+        <div class="card">
+          <img src="assets/images/carna-02.jpg" alt="Imagem de confete e serpentina no chão" class="card-img">
+          <div class="card-description">
+            <h3>Todo mundo null</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit<br/>aliqua dolor do amet sint.</p>
+            <div class="card-text">
+              <img src="assets/images/location.svg" alt="Imagem de um ícone de localidade">
+              <span>Rio de Janeiro - RJ</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/images/carna-03.jpg" alt="Imagem de uma multidão na rua curtindo o carnaval" class="card-img">
+          <div class="card-description">
+            <h3>Hoje dou exception</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit<br/>aliqua dolor do amet sint.</p>
+            <div class="card-text">
+              <img src="assets/images/location.svg" alt="Imagem de um ícone de localidade">
+              <span>Salvador - BA</span>
+            </div>
+          </div>  
+        </div>
+        <div class="card">
+          <img src="assets/images/carna-04.jpg" alt="Imagem de uma pessoa fantasiada no meio de vários adereços e fantasias de carnaval" class="card-img">
+          <div class="card-description">
+            <h3>Manda Node</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit<br/>aliqua dolor do amet sint.</p>
+            <div class="card-text">
+              <img src="assets/images/location.svg" alt="Imagem de um ícone de localidade">
+              <span>Recife - PE</span>
+            </div>
+          </div>  
+        </div>
+        <div class="card">
+          <img src="assets/images/carna-05.jpg" alt="Imagem de três moças e um rapaz fantasiado de palhaço no meio da rua" class="card-img">
+          <div class="card-description">
+            <h3>Só no back-end</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit<br/>aliqua dolor do amet sint.</p>
+            <div class="card-text">
+              <img src="assets/images/location.svg" alt="Imagem de um ícone de localidade">
+              <span>Olinda - PE</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/images/carna-06.jpg" alt="Imagem de um rapaz com uma trombeta na boca no meio de uma galera curtindo o carnaval" class="card-img">
+          <div class="card-description">
+            <h3>Esse anel não é de Ruby</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit<br/>aliqua dolor do amet sint.</p>
+            <div class="card-text">
+              <img src="assets/images/location.svg" alt="Imagem de um ícone de localidade">
+              <span>Porto Alegre - RS</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/images/carna-07.jpg" alt="Imagem de três moças no meio da rua curtindo" class="card-img">
+          <div class="card-description">
+            <h3>Pimenta no C# dos outros é refresco</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit<br/>aliqua dolor do amet sint.</p>
+            <div class="card-text">
+              <img src="assets/images/location.svg" alt="Imagem de um ícone de localidade">
+              <span>Florianópolis - SC</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/images/carna-08.jpg" alt="Imagem de uma galera junta" class="card-img">
+          <div class="card-description">
+            <h3>EnCACHE aqui</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit<br/>aliqua dolor do amet sint.</p>
+            <div class="card-text">
+              <img src="assets/images/location.svg" alt="Imagem de um ícone de localidade">
+              <span>Belém - PA</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/images/carna-09.jpg" alt="Imagem de uma moça com o rosto pintado e outras pessoas em volta e ao fundo" class="card-img">
+          <div class="card-description">
+            <h3>Não valho nada mas JAVA li</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit<br/>aliqua dolor do amet sint.</p>
+            <div class="card-text">
+              <img src="assets/images/location.svg" alt="Imagem de um ícone de localidade">
+              <span>Brasília - DF</span>
+            </div>
+          </div>
+        </div>
+    </section>
+  </main>
+</body>
+</html>
